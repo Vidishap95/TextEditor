@@ -32,7 +32,7 @@ module.exports = () => {
         name: 'Just another text editor',
         short_name: 'JATE',
         description: 'Just another text editor',
-        background_color: '#####',
+        background_color: 'white',
         theme_color: 'blue',
         start_url: '/',
         publicPath: '/',
@@ -60,7 +60,7 @@ module.exports = () => {
           exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
-            Options: {
+            options: {
               presents: ['@babel/present-env'],
               plugins: ['@babel//plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             },
