@@ -33,7 +33,7 @@ module.exports = () => {
         short_name: 'JATE',
         description: 'Just another text editor',
         background_color: '#####',
-        theme_color: 'blue'
+        theme_color: 'blue',
         start_url: '/',
         publicPath: '/',
         icons : [
